@@ -7,7 +7,7 @@ header  {
     z-index: 1000;
     display: flex;
     align-items: center;
-    margin-left: 0; 
+    margin-left: 100%; 
 
 }
 header img{
