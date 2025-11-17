@@ -1,5 +1,5 @@
 <?php
     
-    include("paginaPrincipal/topo.php");
+    include("../topo.php");
 
 ?>
