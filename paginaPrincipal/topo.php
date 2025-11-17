@@ -17,8 +17,6 @@
             <a href="botão">Cardápio</a>
 
          </nav>
-
-
     </header>
 </body>
 </html>

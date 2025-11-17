@@ -9,3 +9,15 @@ header  {
     align-items: center;
     margin-left: 100%;
 }
+header img{
+    height: 100px;
+    margin-left: 30px;  
+}
+header nav {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+a {
+    color: #e8e80b;
+}
