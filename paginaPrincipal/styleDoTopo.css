@@ -20,6 +20,25 @@ header nav {
     margin-right: 50px;
 }
 
-a {
-    color: #e8e80b;
+nav{
+    display: flex;  
+    align-items: center;
+    gap: 60px;
+    margin: 0;
+}
+#botao {
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    word-spacing: 5px;
+    font-size: 120%;
+    background: none;
+    border: none;
+    transition: color 0.3s, transform 0.3s;
+}
+#botao:hover {
+    color: #FFD700;
+    transform: scale(1.1);
 }
