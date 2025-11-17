@@ -11,7 +11,7 @@
          <img src="LogoPizzaria.jpeg" alt="Logo da Pizzaria Guerrier">
 
          <nav>
-            <a href=""></a>
+            <a href="botão"><strong>Bem-Vindo a Pizzaria Guerrier</strong></a>
 
 
          </nav>
