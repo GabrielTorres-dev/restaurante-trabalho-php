@@ -12,7 +12,9 @@
 
          <nav>
             <a href="botão"><strong>Bem-Vindo a Pizzaria Guerrier</strong></a>
-
+            <a href="botão">Quem Somos</a>
+            <a href="botão">Lojas</a>
+            <a href="botão">Cardápio</a>
 
          </nav>
 
