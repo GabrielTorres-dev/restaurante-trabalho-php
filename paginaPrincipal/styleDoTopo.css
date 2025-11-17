@@ -2,11 +2,13 @@ header  {
     background-color: black;
     position: flexed;
     top: 0%;
+    left: 0%;
     height: 130px;
     width: 100%;
     z-index: 1000;
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 header img{
