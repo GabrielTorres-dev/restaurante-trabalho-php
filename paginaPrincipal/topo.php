@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-         <img src="imagens/logoPizzaria.jpeg" alt="Guerrier Pizzaria Logo">
+         <img src="../imagens/logoPizzaria.jpeg" alt="Guerrier Pizzaria Logo">
 
          <nav>
             <a href="botão"><strong>Bem-Vindo a Pizzaria Guerrier</strong></a>
