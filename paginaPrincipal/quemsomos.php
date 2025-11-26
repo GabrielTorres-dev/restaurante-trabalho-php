@@ -29,7 +29,7 @@
             line-height: 1.6;
         }
         .imagem {
-            width: 45%;
+            width: 50%;
             display: flex;
             justify-content: center;
         }
