@@ -66,7 +66,7 @@
     </div>
 
     <div class="imagem">
-        <img src="/imagens/imagemIlustrativa.jpg" alt="imagem ilustrativa">
+        <img src="imagens/imagemIlustrativa.jpg" alt="imagem ilustrativa">
     </div>
 </div>
 
