@@ -13,7 +13,7 @@
             align-items: center;
             justify-content: center;
             padding: 60px 10%;
-            background: #191970;
+            background: #003366;
             color: white;
         }
         .texto {
