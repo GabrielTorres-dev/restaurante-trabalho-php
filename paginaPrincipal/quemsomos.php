@@ -33,7 +33,7 @@
             display: flex;
             justify-content: right;
             align-items: center;
-            margin-top: 120px;
+            margin-top: 125px;
         }
         .imagem img {
             width: 85%;
