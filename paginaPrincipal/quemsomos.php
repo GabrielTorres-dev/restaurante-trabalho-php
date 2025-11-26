@@ -14,7 +14,7 @@
             justify-content: center;
             padding: 60px 10%;
             background: #0F1C2E;
-            color: #FFD700;
+            color: #917b02ff;
         }
         .texto {
             width: 55%;
