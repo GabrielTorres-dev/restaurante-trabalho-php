@@ -47,26 +47,26 @@
         <h1>QUEM SOMOS</h1>
         <p>
             A Pizzaria Bella Napoli não é apenas uma pizzaria: é o resultado da paixão por tradição,
-            sabor e muita criatividade. Nascida em São Paulo em março de 2015, nossa missão sempre foi
+            sabor e muita criatividade. Nascida na Paraíba em março de 2015, nossa missão sempre foi
             elevar o conceito de pizza artesanal, trazendo ingredientes selecionados e receitas que
             unem o clássico ao contemporâneo.
         </p>
 
         <p>
-            Desde o início, a Bella Napoli superou todas as expectativas. Em menos de cinco anos,
+            Desde o início, a Pizzaria Guerrier superou todas as expectativas. Em menos de cinco anos,
             conquistamos clientes em diversas regiões e expandimos rapidamente. Hoje contamos com
             dezenas de unidades em funcionamento e uma base fiel de apaixonados por pizza.
         </p>
 
         <p>
             Atualmente, somos referência nacional em pizzas artesanais no delivery, com presença em
-            estados como São Paulo, Rio de Janeiro, Paraná, Bahia e Minas Gerais. Somos sinônimo de
+            em João Pessoa Somos sinônimo de
             qualidade, inovação e excelência no atendimento — tanto presencial quanto no delivery.
         </p>
     </div>
 
     <div class="imagem">
-        <img src="img/pizza-banner.jpg" alt="Pizzas artesanais e delivery Bella Napoli">
+        <img src="/imagens/imagemIlustrativa.jpg" alt="imagem ilustrativa">
     </div>
 </div>
 
