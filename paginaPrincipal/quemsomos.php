@@ -13,7 +13,7 @@
             align-items: center;
             justify-content: center;
             padding: 60px 10%;
-            background: linear-gradient(90deg, #c62828, #ff7043);
+            background: #191970;
             color: white;
         }
         .texto {
@@ -39,7 +39,6 @@
             box-shadow: 0 0 18px rgba(0,0,0,0.45);
         }
     </style>
-</head>
 <body>
 
 <div class="container">
