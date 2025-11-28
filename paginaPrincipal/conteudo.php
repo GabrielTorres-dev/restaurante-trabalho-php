@@ -23,7 +23,7 @@
         <hr id="linha">
     <div id="lojas">
             <nav id="banner">
-                <video src="./assets.video/Vídeo sem título.mp4" class="midia"  autoplay loop muted  ></video>
+                <video src="../assets.video/Vídeo sem título.mp4" class="midia"  autoplay loop muted  ></video>
         <div class="description">
             <h1>NOSSAS LOJAS</h1>
             <p>Estamos presentes em 14 estados brasileiros, levando o sabor do O Burguês para você. Confira nossas lojas e venha nos visitar!</p>

@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">      
       </nav>
         <footer>
-                <img src="imagens/logo_burgues_laranja_2 (1).png" alt="Logo O Burguês">
+                <img src="../imagens/logo_burgues_laranja_2 (1).png" alt="Logo O Burguês">
                 <p></p>
                 &copy; 2025 <strong>O Burguês</strong>. Todos os direitos reservados.
                 <p></p>

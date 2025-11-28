@@ -14,7 +14,7 @@
 <body>
 
     <header>
-           <img src="imagens/logo_burgues_laranja_2 (1).png"
+           <img src="../imagens/logo_burgues_laranja_2 (1).png"
             alt="Logo O Burguês">
         <nav>
             <a id="botao" href="#logo"><strong>Bem-Vindo</strong></a>
