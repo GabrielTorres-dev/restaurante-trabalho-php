@@ -47,7 +47,7 @@
 
         <hr id="linha">
         <nav id="formulario">
-            <form class="formulario" action="pedidos.php" method="post">
+            <form class="formulario" action="listardois.php" method="post">
                 <h2>Realize o seu pedido!</h2>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome_cliente" required placeholder="Seu nome completo">
