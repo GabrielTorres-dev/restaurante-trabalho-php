@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O Burgues - Nosso Cardápio</title>
-    <link rel="icon" href="imagens/logo_burgues_laranja_2 (1).png" type="image/png">
+    <link rel="icon" href="../imagens/logo_burgues_laranja_2 (1).png" type="image/png">
     <link rel="stylesheet" href="cardapio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -147,7 +147,7 @@
 </div>
     </section>
     <footer>
-        <img src="imagens/logo_burgues_laranja_2 (1).png" alt="Logo O Burguês">
+        <img src="../imagens/logo_burgues_laranja_2 (1).png" alt="Logo O Burguês">
         <p id="footer">&copy; 2025 <strong>O Burguês</strong>. Todos os direitos reservados.</p>
         <p id="footer"></p>
         <hr>
