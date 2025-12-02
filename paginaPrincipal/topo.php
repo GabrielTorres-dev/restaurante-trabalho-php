@@ -20,7 +20,7 @@
             <a id="botao" href="#logo"><strong>Bem-Vindo</strong></a>
             <a id="botao" href="#frase1"><strong>Quem Somos</strong></a>
             <a id="botao" href="#lojas"><strong>Lojas</strong></a>
-           <a  id="botao" href="cardapio.html" target="_blank"><strong>Cardápio</strong></a>
+           <a  id="botao" href="cardapio.php" target="_blank"><strong>Cardápio</strong></a>
             <a href="https://www.ifood.com.br/delivery/joao-pessoa-pb/o-burgues---burger-joao-pessoa-manaira/72015415-2e15-4496-92b7-003cc10161e1" target="_blank">
             <button><ins><b>FAÇA SEU PEDIDO</b></ins></button>
             </a>
