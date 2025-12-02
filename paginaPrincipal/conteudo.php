@@ -46,19 +46,19 @@
     </div>
 
         <hr id="linha">
-        <nav>
-            <form class="formulario" action="obrigado.html" method="post">
-                <h2>SEJA MEMBRO</h2>
+        <nav id="formulario">
+            <form class="formulario" action="pedidos.php" method="post">
+                <h2>Realize o seu pedido!</h2>
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
-
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                <input type="text" id="nome" name="nome_cliente" required placeholder="Seu nome completo">
 
                 <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" required placeholder="(99) 99999-9999">
+                <input type="tel" id="telefone" name="numero_contato" required placeholder="(99) 99999-9999">
 
-                <label for="estado">Localização:</label>
+                <label for="endereco">Endereço:</label >
+                <input type="text" id="endereco" name="endereco" required placeholder="Rua Exemplo, 123">
+
+                <label for="estado">Cidade:</label>
                 <select id="estado" name="estado" required>
                 <option value="" disabled selected>Selecione sua cidade</option>
                 <option value="paraiba-pb">João Pessoa - PB</option>
@@ -74,5 +74,5 @@
                 <option value="rio-grande-do-sul-rs">Porto Alegre - RS</option>
                 <option value="santa-catarina-sc">Blumenau - SC</option>
                 </select>
-                <button type="submit">Enviar</button>
+                <button type="submit">Finalizar pedido!</button>
             </form>
