@@ -2,7 +2,7 @@
 $host = 'localhost';
 $user = 'root';
 $pass = ''; // vazio mesmo
-$dbname = 'restaurante-trabalho-php';
+$dbname = 'cadastroclientes';
 
 $con = mysqli_connect($host, $user, $pass, $dbname);
 
