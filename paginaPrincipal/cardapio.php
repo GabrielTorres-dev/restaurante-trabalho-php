@@ -31,6 +31,12 @@
             <h3>Clássico</h3>
             <p>Carne 180g, cheddar duplo, bacon crocante, cebola caramelizada.</p>
             <strong>R$ 34,90</strong>
+
+            <form action="listagem.php " method="POST">
+                    <input type="hidden" name = "TipoDeHamburguer" value="Clássico">
+                    <input type="hidden" name="valorDoHamburguer" value="34,90">
+                    <button type="submit">Enviar pedido.</button>
+            </form>
         </div>
 
         <div id="hamburguer">
