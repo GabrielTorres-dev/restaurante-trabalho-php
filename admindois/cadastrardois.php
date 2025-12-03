@@ -1,10 +1,9 @@
 <?php
-include_once($_SERVER['DOCUMENT_ROOT'] . "/Trabalho_um_php/diretorioPrincipal/restaurante-trabalho-php/conexaodois.php");
-
+include_once($_SERVER['DOCUMENT_ROOT']."/Trabalho_um_php/diretorioPrincipal/restaurante-trabalho-php/conexaodois.php");
 
 $erro = '';
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $nome_cliente   = trim($_POST['nome_cliente'] ?? '');
     $endereco       = trim($_POST['endereco'] ?? '');
@@ -14,9 +13,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $erro = "Nome é obrigatório.";
     } else {
 
-        $stmt = mysqli_prepare($con, 
-            "INSERT INTO clientes (nome_cliente, endereco, numero_contato) VALUES (?, ?, ?)"
-        );
+        $stmt = mysqli_prepare($con, "
+            INSERT INTO clientes (nome_cliente, endereco, numero_contato)
+            VALUES (?, ?, ?)
+        ");
 
         mysqli_stmt_bind_param($stmt, "sss", $nome_cliente, $endereco, $numero_contato);
         mysqli_stmt_execute($stmt);
@@ -28,12 +28,29 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ?>
 
 <h2>Novo Cliente</h2>
-<?php if(!empty($erro)) echo "<div class='alert alert-danger'>$erro</div>"; ?>
+
+<?php if($erro): ?>
+<div class="alert alert-danger">
+    <?= h($erro) ?>
+</div>
+<?php endif; ?>
+
 <form method="post">
-  <div class="mb-3"><label class="form-label">Nome</label><input type="text" name="nome_cliente" class="form-control" required></div>
-  <div class="mb-3"><label class="form-label">Endereço</label><input type="text" name="endereco" class="form-control"></div>
-  <div class="mb-3"><label class="form-label">Telefone</label><input type="text" name="numero_contato" class="form-control"></div>
-  <button class="btn btn-success">Salvar</button>
-  <a href="listardois.php" class="btn btn-secondary">Cancelar</a>
+    <div class="mb-3">
+        <label>Nome</label>
+        <input type="text" name="nome_cliente" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label>Endereço</label>
+        <input type="text" name="endereco" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label>Telefone</label>
+        <input type="text" name="numero_contato" class="form-control">
+    </div>
+
+    <button class="btn btn-success">Salvar</button>
+    <a href="listardois.php" class="btn btn-secondary">Cancelar</a>
 </form>
-<?php 
