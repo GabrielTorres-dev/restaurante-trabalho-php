@@ -1,5 +1,5 @@
 <?php
-include_once(__DIR__ . "/../conexaodois.php");
+include_once("../conexaodois.php");
 
 $id = (int)($_GET['id'] ?? 0);
 
