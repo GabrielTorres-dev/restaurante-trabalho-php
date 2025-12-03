@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "cadastrocliente";
+$db   = "cadastroclientes";
 
 $con = mysqli_connect($host, $user, $pass, $db);
 
