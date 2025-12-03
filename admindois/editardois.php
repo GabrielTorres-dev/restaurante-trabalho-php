@@ -1,6 +1,4 @@
 <?php
-include_once("../conexaodois.php");
-include_once("../topo.php");
 $id = (int)($_GET['id'] ?? 0);
 if ($_POST) {
   $nome_cliente = mysqli_real_escape_string($con, trim($_POST['nome_cliente']));
@@ -20,4 +18,4 @@ $r = mysqli_fetch_assoc(mysqli_query($con, "SELECT * FROM clientes WHERE id=$id"
   <button class="btn btn-primary">Salvar Alterações</button>
   <a href="listardois.php" class="btn btn-secondary">Voltar</a>
 </form>
-<?php include_once("../rodape.php"); ?>
+<?php 

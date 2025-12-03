@@ -1,6 +1,4 @@
 <?php
-include_once("../conexaodois.php");
-include_once("../topo.php");
 
 $msg = $_GET['msg'] ?? '';
 $res = mysqli_query($con, "SELECT * FROM clientes ORDER BY id DESC");
@@ -26,4 +24,4 @@ $res = mysqli_query($con, "SELECT * FROM clientes ORDER BY id DESC");
     <?php endwhile; ?>
   </tbody>
 </table>
-<?php include_once("../rodape.php"); ?>
+<?php 

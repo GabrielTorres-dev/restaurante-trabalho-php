@@ -1,4 +1,3 @@
-<?php if (!$editando): ?>
 
 <h2>Cadastrar Hambúrguer</h2>
 
@@ -14,4 +13,4 @@
     <button type="submit">Cadastrar</button>
 </form>
 
-<?php endif; ?>
+<?php 
