@@ -18,7 +18,7 @@ $res = mysqli_query($con, $sql);
     <?php while ($h = mysqli_fetch_assoc($res)): ?>
     <tr>
         <td><?= $h['id_hamburguer'] ?></td>
-        <td><?= $h['TipodoHamburguer'] ?></td>
+        <td><?= $h['TipodeHamburguer'] ?></td>
         <td>R$ <?= number_format($h['valorDoHamburguer'], 2, ',', '.') ?></td>
 
         <td>
