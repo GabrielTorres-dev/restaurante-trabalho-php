@@ -35,7 +35,7 @@
             <form action="listagem.php " method="POST">
                     <input type="hidden" name = "TipoDeHamburguer" value="Clássico">
                     <input type="hidden" name="valorDoHamburguer" value="34,90">
-                    <button type="submit">Enviar pedido.</button>
+                    <button type="submit"><ins><b>Enviar seu pedido</b></ins></button>
             </form>
         </div>
 
