@@ -1,3 +1,5 @@
+include_once("../conexaodois.php");
+
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . "/Trabalho_um_php/diretorioPrincipal/restaurante-trabalho-php/conexaodois.php");
 
