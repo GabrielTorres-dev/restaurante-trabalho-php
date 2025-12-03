@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 $sql = "SELECT * FROM hamburguer";
 $res = mysqli_query($con, $sql);
 ?>
-
+include "conexao.php";
 <h2>Lista de Hambúrgueres</h2>
 
 <table border="1" cellpadding="8">
