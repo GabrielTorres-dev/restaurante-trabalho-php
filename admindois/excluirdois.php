@@ -1,6 +1,5 @@
 <?php
-include_once($_SERVER['DOCUMENT_ROOT'] . "/Trabalho_um_php/diretorioPrincipal/restaurante-trabalho-php/conexaodois.php");
-
+include_once("../conexaodois.php");
 
 $id = (int)($_GET['id'] ?? 0);
 
@@ -12,5 +11,5 @@ if ($id > 0) {
 
 }
 
-header("Location: listardois.php?msg=Cliente excluído com sucesso!");
+header("Location: listardois.php?msg=Cliente excluído!");
 exit;
