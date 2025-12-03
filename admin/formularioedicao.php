@@ -1,7 +1,3 @@
-<?php
-include "conexao.php";
-?>
-
 <?php if ($editando): ?>
 
 <h2>Editar Hambúrguer</h2>

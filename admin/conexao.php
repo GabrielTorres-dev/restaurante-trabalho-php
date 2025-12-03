@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "trabalho_um_php";
+$db   = "cadastrocliente";
 
 $con = mysqli_connect($host, $user, $pass, $db);
 

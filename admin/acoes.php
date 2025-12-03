@@ -1,6 +1,6 @@
 <?php
 include "conexao.php";
-?>
+
 // --- CRIAR ---
 if (isset($_POST['acao']) && $_POST['acao'] == 'criar') {
 

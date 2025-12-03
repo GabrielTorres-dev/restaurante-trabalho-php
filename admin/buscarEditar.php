@@ -1,6 +1,6 @@
 <?php
 include "conexao.php";
-?>
+
 $editando = null;
 
 if (isset($_GET['edit'])) {

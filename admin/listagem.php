@@ -1,6 +1,10 @@
 <?php
 include "conexao.php";
+
+$sql = "SELECT * FROM hamburguer";
+$res = mysqli_query($con, $sql);
 ?>
+
 <h2>Lista de Hambúrgueres</h2>
 
 <table border="1" cellpadding="8">
@@ -14,7 +18,7 @@ include "conexao.php";
     <?php while ($h = mysqli_fetch_assoc($res)): ?>
     <tr>
         <td><?= $h['id_hamburguer'] ?></td>
-        <td><?= $h['TipodeHamburguer'] ?></td>
+        <td><?= $h['TipodoHamburguer'] ?></td>
         <td>R$ <?= number_format($h['valorDoHamburguer'], 2, ',', '.') ?></td>
 
         <td>
