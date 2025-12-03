@@ -47,28 +47,4 @@ if (isset($_POST['acao']) && $_POST['acao'] == 'criar') {
 
 <hr>
 
-<h2>Hambúrgueres Cadastrados</h2>
 
-<table border="1" cellpadding="8">
-    <tr>
-        <th>ID</th>
-        <th>Tipo</th>
-        <th>Valor</th>
-    </tr>
-
-    <?php
-    $consulta = "SELECT * FROM hamburguer";
-    $resultado = mysqli_query($con, $consulta);
-
-    while ($linha = mysqli_fetch_assoc($resultado)) {
-        echo "<tr>";
-        echo "<td>{$linha['id_hamburguer']}</td>";
-        echo "<td>{$linha['TipodoHamburguer']}</td>";
-        echo "<td>R$ " . number_format($linha['valorDoHamburguer'],2,',','.') . "</td>";
-        echo "</tr>";
-    }
-    ?>
-</table>
-
-</body>
-</html>
