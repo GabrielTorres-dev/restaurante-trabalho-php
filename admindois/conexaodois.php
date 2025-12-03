@@ -1,13 +1,8 @@
 <?php
-$host = 'localhost';
-$user = 'root';
-$pass = ''; // vazio mesmo
-$dbname = 'cadastroclientes';
-
-$con = mysqli_connect($host, $user, $pass, $dbname);
+$con = mysqli_connect("localhost", "root", "", "cadastroclientes");
 
 if (!$con) {
-    die("Erro na conexão: " . mysqli_connect_error());
+    die("Erro na conexão");
 }
-function h($v) { return htmlspecialchars($v, ENT_QUOTES, 'UTF-8'); }
-?>
+
+mysqli_set_charset($con, "utf8");

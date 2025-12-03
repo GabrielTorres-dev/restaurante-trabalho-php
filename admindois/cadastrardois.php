@@ -1,17 +1,31 @@
 <?php
+include_once(__DIR__ . "/../conexaodois.php");
 
-if ($_POST) {
-  $nome_cliente = mysqli_real_escape_string($con, trim($_POST['nome_cliente']));
-  $endereco = mysqli_real_escape_string($con, trim($_POST['endereco']));
-  $numero_contato = mysqli_real_escape_string($con, trim($_POST['numero_contato']));
-  if ($nome_cliente == '') $erro = "Nome é obrigatório.";
-  else {
-    mysqli_query($con, "INSERT INTO clientes (nome_cliente,enderco,numero_contato) VALUES ('$nome_cliente','$endereco','$numero_contato')");
-    header("Location: listardois.php?msg=Cliente cadastrado com sucesso!");
-    exit;
-  }
+$erro = '';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+    $nome_cliente   = trim($_POST['nome_cliente'] ?? '');
+    $endereco       = trim($_POST['endereco'] ?? '');
+    $numero_contato = trim($_POST['numero_contato'] ?? '');
+
+    if ($nome_cliente == '') {
+        $erro = "Nome é obrigatório.";
+    } else {
+
+        $stmt = mysqli_prepare($con, 
+            "INSERT INTO clientes (nome_cliente, endereco, numero_contato) VALUES (?, ?, ?)"
+        );
+
+        mysqli_stmt_bind_param($stmt, "sss", $nome_cliente, $endereco, $numero_contato);
+        mysqli_stmt_execute($stmt);
+
+        header("Location: listardois.php?msg=Cliente cadastrado com sucesso!");
+        exit;
+    }
 }
 ?>
+
 <h2>Novo Cliente</h2>
 <?php if(!empty($erro)) echo "<div class='alert alert-danger'>$erro</div>"; ?>
 <form method="post">
