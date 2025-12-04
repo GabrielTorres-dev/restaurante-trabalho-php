@@ -2,7 +2,7 @@
 
     require_once "config.inc.php";
     $id_cliente_cliente = $_GET["id_cliente"];
-    $sql = "DELETE FROM clientes WHERE id_cliente = '$id_cliente'";
+    $sql = "DELETE FROM cadastroclientes WHERE id_cliente = '$id_cliente'";
 
     $resultado = mysqli_query($conexao, $sql);
 
