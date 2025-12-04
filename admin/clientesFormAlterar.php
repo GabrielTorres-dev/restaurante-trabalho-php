@@ -9,7 +9,7 @@ if ($id_hamburguer === null) {
 }
 
 $sql = "SELECT * FROM hamburguer WHERE id_hamburguer = '$id_hamburguer'";
-$resultado = mysqli_fetch_array($conexao, $sql);
+$resultado = mysqli_query($conexao, $sql);
 
 if(mysqli_num_rows($resultado) > 0) {
     while ($dados = mysqli_fetch_array($resultado)){
