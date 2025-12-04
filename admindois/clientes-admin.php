@@ -6,7 +6,6 @@
 
     $resultado = mysqli_query($conexao, $sql);
 
-    echo "<a href='?pg=clientes-form'>Cadastrar Clientes</a>";
 
     echo "<h2>Lista de Clientes</h2><hr>";
 
