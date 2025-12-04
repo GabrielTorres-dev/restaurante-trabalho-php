@@ -11,7 +11,7 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST" ){
 
     if(mysqli_query($conexao, $sql )) {
         echo "<h3>Hamburguer cadastrado com sucesso!</h3>";
-        echo "<a href = '?pg=clientes_admin_um'>Voltar</a>";
+        echo "<a href ='?pg=clientes_admin_um'>Voltar</a>";
     } else {
         echo"Erro ao cadastradar o sabor de hmburguer";
     }       
