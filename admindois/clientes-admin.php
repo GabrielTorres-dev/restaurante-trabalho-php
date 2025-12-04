@@ -15,7 +15,7 @@
             echo "Nome: " . $dados['nome_cliente'] . "<br>";
             echo "Telefone: " . $dados['numero_contato'] . "<br>";
             echo "Endereço: " . $dados['endereco'] . "<br>";
-            echo "<a href='?pg=clientes-form-alterar&id=$dados[id]'>Editar</a>";
+            echo "<a href='?pg=clientes-form&id=$dados[id]'>Editar</a>";
             echo " | <a href='?pg=clientes-excluir&id=$dados[id]'>Excluir</a>";
             echo "<hr>";
         }
