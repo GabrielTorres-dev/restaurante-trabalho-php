@@ -33,6 +33,6 @@
 
 <?php
     }else{
-        echo "<h2>Nenhum nome_cliente encontrado!</h2>";
+        echo "<h2>Nenhum cliente encontrado!!</h2>";
     }
 ?>
