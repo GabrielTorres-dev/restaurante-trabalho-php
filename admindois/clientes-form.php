@@ -6,7 +6,7 @@ require_once 'config.inc.php';
 $id_cliente = $_GET['id_cliente'] ?? null;
 
 if ($id_cliente === null) {
-    echo "<h2>Erro: nenhum cliente selecionado.</h2>";
+    echo "<h2>Nenhum cliente selecionado.</h2>";
     exit;
 }
 
