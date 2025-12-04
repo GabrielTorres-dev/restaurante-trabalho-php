@@ -5,13 +5,13 @@ require_once "config.inc.php";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $nome_cliente = $_POST["nome_cliente"];
     $numero_contato = $_POST["numero_contato"];
-    $endereco = $_POST["endereco "];
+    $endereco = $_POST["endereco"];
     $id_cliente = $_POST["id_cliente"];
 
-    $sql = "UPDATE clientes SET 
+    $sql = "UPDATE cliente SET 
             nome_cliente  = '$nome_cliente ',
             numero_contato = '$numero_contato',
-            endereco  = '$endereco '
+            endereco  = '$endereco'
             WHERE id_cliente = '$id_cliente'";
 
     if(mysqli_query($conexao, $sql)){
