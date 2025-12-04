@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $numero_contato   = $_POST["numero_contato"];
     $endereco         = $_POST["endereco"];
 
-    $sql = "INSERT INTO clientes (nome_cliente, numero_contato, endereco)
+    $sql = "INSERT INTO cliente (nome_cliente, numero_contato, endereco)
             VALUES ('$nome_cliente', '$numero_contato', '$endereco')";
 
     if (mysqli_query($conexao, $sql)) {
