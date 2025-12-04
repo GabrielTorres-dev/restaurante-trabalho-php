@@ -3,8 +3,8 @@
 echo "<h1>Painel administrativo</h1>";
 
 echo "<a href='?pg=clientes-admin'>Listar Clientes</a> | ";
-echo "<a href='?pg=clientes-cadastro'>Cadastrar Cliente</a> | ";
-
+echo "<a href='?pg=clientes-cadastro'></a> | ";
+echo"<a href= '?pg=clientesForm'>Formulario para cadastro. </a>  |";
 
 if (empty($_SERVER['QUERY_STRING'])) {
     echo "<h3>Bem-vindo ao painel admin.</h3>";
