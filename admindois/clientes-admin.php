@@ -2,7 +2,7 @@
 
 require_once "config.inc.php";
 
-$sql = "SELECT * FROM clientes";
+$sql = "SELECT * FROM cliente";
 $resultado = mysqli_query($conexao, $sql);
 
 echo "<h2>Lista de Clientes</h2><hr>";
