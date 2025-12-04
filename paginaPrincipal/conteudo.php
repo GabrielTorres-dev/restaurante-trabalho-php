@@ -47,7 +47,7 @@
 
         <hr id="linha">
         <nav id="formulario">
-            <form class="formulario" action="?pg=clientes-cadastro.php" method="post">
+            <form class="formulario" action="?pg=clientes-cadastro" method="post">
                 <h2>Realize o seu pedido!</h2>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome_cliente" required placeholder="Seu nome completo">
@@ -74,5 +74,5 @@
                 <option value="rio-grande-do-sul-rs">Porto Alegre - RS</option>
                 <option value="santa-catarina-sc">Blumenau - SC</option>
                 </select>
-                <button type="submit" action="?pg=clientes-cadastro" method="POST">Finalizar pedido!</button>
+                <button type="submit">Finalizar pedido!</button>
             </form>
