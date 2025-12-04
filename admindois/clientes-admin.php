@@ -2,7 +2,7 @@
 
     require_once "config.inc.php";
 
-    $sql = "SELECT * FROM cadastroclientes";
+    $sql = "SELECT * FROM clientes";
 
     $resultado = mysqli_query($conexao, $sql);
 

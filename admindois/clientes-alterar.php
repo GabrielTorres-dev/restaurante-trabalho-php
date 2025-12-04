@@ -8,7 +8,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $endereco = $_POST["endereco "];
     $id_cliente = $_POST["id_cliente"];
 
-    $sql = "UPDATE cadastroclientes s SET 
+    $sql = "UPDATE clientes SET 
             nome_cliente  = '$nome_cliente ',
             numero_contato = '$numero_contato',
             endereco  = '$endereco '

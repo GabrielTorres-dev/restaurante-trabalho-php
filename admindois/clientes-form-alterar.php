@@ -3,7 +3,7 @@
     require_once 'config.inc.php';
 
     $id_cliente = $_GET['id_cliente'];
-    $sql = "SELECT * FROM cadastroclientes WHERE id_cliente = '$id_cliente'";
+    $sql = "SELECT * FROM clientes WHERE id_cliente = '$id_cliente'";
     $resultado = mysqli_query($conexao, $sql);
 
     if(mysqli_num_rows($resultado) > 0){
