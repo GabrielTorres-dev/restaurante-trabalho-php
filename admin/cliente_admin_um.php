@@ -5,7 +5,7 @@
     $sql = "SELECT *FROM hamburguer";
     $resultado = mysqli_query($conexao, $sql);
 
-    if(mysqli_num_rows ($resultado) >0){
+    if(mysqli_num_rows ($resultado) > 0){
 
        while($dadps = mysqli_fetch_array($resultado)) {
 
@@ -15,7 +15,7 @@
 
 
             echo "<a href='?pg=clienteExcluir&id_hamrburguer={$dados['id_hamburguer']}'>Excluir Hamburguer.</a>";
-            echo "<a href='?pg=clienteFormAlterar&id_hambrugue{$dados['id_hamburguer']}'>Alterar hamburguer</a>";
+            echo "<a href='?pg=clienteFormAlterar&id_hambruguer{$dados['id_hamburguer']}'>Alterar hamburguer</a>";
 
             echo"<hr>";
        }
