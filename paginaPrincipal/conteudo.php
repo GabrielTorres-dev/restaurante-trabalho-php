@@ -74,5 +74,5 @@
                 <option value="rio-grande-do-sul-rs">Porto Alegre - RS</option>
                 <option value="santa-catarina-sc">Blumenau - SC</option>
                 </select>
-                <button type="submit">Finalizar pedido!</button>
+                <button type="submit" action="">Finalizar pedido!</button>
             </form>

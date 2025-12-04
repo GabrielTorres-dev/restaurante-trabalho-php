@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <h2>Cadastrar Cliente</h2>
-<form action="?pg=cadastroclientes" method="GET">
+<form action="?pg=clientes-cadastro" method="POST">
 
     <label>Nome:</label>
     <input type="text" name="nome_cliente"><br>
