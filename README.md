@@ -15,3 +15,34 @@ O que terá nessa aba inicial?
 Além disso, terá um banco de dados onde vai ser cadastrado os dados do cliente e o seu pedido na pizzaria.
 Onde esse banco de dados vai salvar o dados do cliente, numero do pedido, depois que o pedido for feito ele vai imprimir na tela um tempo de pedido ficticio.
 
+Banco de dados:
+
+CREATE TABLE Clientes (
+
+id_cliente INT AUTO_INCREMENT PRIMARY KEY,
+
+pedidos INT NOT NULL,
+
+nome_cliente VARCHAR (100) NOT NULL,
+
+endereco VARCHAR(200),
+
+numero_contato VARCHAR(20)
+
+);
+
+CREATE TABLE Pizzas (
+
+id_pizza INT AUTO_INCREMENT PRIMARY KEY,
+
+saborDePizza VARCHAR(100) NOT NULL,
+
+valorDaPizza DECIMAL (10,2) NOT NULL
+
+ID único para cada sabor
+
+Nome do sabor da pizza
+
+Valor da pizza
+
+);
