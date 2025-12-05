@@ -10,7 +10,7 @@ if ($id_cliente === null) {
     exit;
 }
 
-$sql = "SELECT * FROM clientes WHERE id_cliente = '$id_cliente'";
+$sql = "SELECT * FROM cliente WHERE id_cliente = '$id_cliente'";
 $resultado = mysqli_query($conexao, $sql);
 
 if(mysqli_num_rows($resultado) > 0){
